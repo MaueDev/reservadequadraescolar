@@ -4,7 +4,7 @@ if (isset($_POST["solicitação"])) {
 //Funçoes permitida para o publico//
 if($_POST["solicitação"] == "solicitar"){
   require_once("../includes/conexão.php");
-  $telefone = "3499978414";
+  $telefone = "00000000000"; //Aqui vai o numero de telefone DDD+NUMERO ex: 34999999999//
   $dia = $_GET["dia"];
   $hora = $_POST["hora"];
   $nome = $_POST["nome"];
